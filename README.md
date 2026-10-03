@@ -6,7 +6,7 @@ Full-stack engineer building on Solana, Rust, and the web. I ship on-chain syste
 **Now:** going deeper on systems and low-level Rust and learning about AI/ML.
 
 ## Code
-
+- [hoist](https://github.com/shibu0x/hoist). Terminal-first Google Drive CLI written in Rust. Upload, browse, download, and delete files without leaving the terminal, with resumable uploads and downloads that recover from interrupted transfers.
 - [async-runtime](https://github.com/shibu0x/async-runtime). A minimal async runtime written from scratch in Rust, no dependencies beyond libc. Hand-built `Future`/`Waker` from a raw `RawWakerVTable`, a `kqueue` reactor with raw `unsafe` FFI to the kernel, timer futures, and an async TCP echo server. Blocks in `kevent` while idle, so it uses 0.0% CPU where a busy-poll loop burns a full core. Built to understand how async actually works at the syscall boundary.
 - [veiled](https://github.com/shibu0x/veiled). Local-first terminal password manager in Rust. Argon2id key derivation, XChaCha20-Poly1305 authenticated encryption, explicit memory zeroization, no network dependency. Published on crates.io.
 - [rsocket](https://github.com/shibu0x/rsocket). The WebSocket protocol implemented from raw TCP in Rust. Frame parsing and HTTP upgrade handling, built to understand the wire byte by byte.
